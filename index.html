@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muskan Tamrakar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #f5f6fa, #dcdde1);
+      color: #2f3640;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #273c75, #192a56);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: slideDown 1s ease-out;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h2 {
+      color: #192a56;
+      font-size: 2rem;
+      border-left: 5px solid #273c75;
+      padding-left: 0.7rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✔";
+      margin-right: 0.5rem;
+      color: #273c75;
+    }
+
+    .project {
+      background: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #273c75;
+      color: white;
+    }
+
+    .contact a {
+      color: #192a56;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .contact a:hover {
+      color: #44bd32;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #273c75;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #192a56;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muskan Tamrakar</h1>
+    <p>Full Stack Java Developer | Frontend & Backend Specialist</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a Full Stack Developer skilled in Java,springboot,servlet,jsp, Spring MVC, JDBC, MySQL for backend and React, HTML, CSS,javascript, Bootstrap for frontend.
+        Currently interning at Cybrome Technology and working on dynamic web applications with real-world functionality.
+      </p>
+    </section>
+
+    <section>
+      <h2>Tech Stack</h2>
+      <ul>
+        <li>Frontend: React, HTML, CSS, JavaScript, Bootstrap</li>
+        <li>Backend: Java, Spring MVC, JDBC, Servlets,jsp</li>
+        <li>Database: MySQL, SQL, DAO Design Pattern,hibernet</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>E-Commerce Clothing Website</h3>
+        <p>Built using React and Bootstrap. Features product listing, shopping cart, and responsive layout.</p>
+      </div>
+       <div class="project">
+        <h3>Little fashion Website</h3>
+        <p>Built using HTML and CSS. Features product listing, shopping cart, and responsive layout.</p>
+      </div>
+       <div class="project">
+        <h3>BM Movie ticket  Website</h3>
+        <p>Built using JavaScript,HTML and CSS. Features promo  show, responsive layout.</p>
+      </div>
+       <div class="project">
+        <h3>Mini Projects</h3>
+        <p>Built using HTML and CSS and JavaScript. Alarm clock, Dies and roller, Calculator and responsive layout.</p>
+      </div>
+
+      <div class="project">
+        <h3>Event Management Portal</h3>
+        <p>Spring MVC + JDBC application with OTP email verification, admin approval system, and event listings.</p>
+      </div>
+      <div class="project">
+        <h3>Java Web Application</h3>
+        <p>Servlet-based dynamic app with login/register/profile features using JDBC and MySQL.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p class="contact">
+        📧 Email: <a href="mailto:youremail@example.com">developermuskan26@gmail.com</a><br>
+        📱 Phone: <a href="tel:+91XXXXXXXXXX">+916268951339</a><br>
+        🔗 GitHub: <a href="https://github.com/Muskantam26" target="_blank">github.com/Muskantam26</a><br>
+        🔗 LinkedIn: <a href="#" target="_blank">https://www.linkedin.com/in/muskan-tamrakar-</a>
+      </p>
+      <a href="https://github.com/Muskantam26" class="btn" target="_blank">View My GitHub</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Muskan Tamrakar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
