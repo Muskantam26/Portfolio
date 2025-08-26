@@ -62,8 +62,4 @@ Animations like **slide-down header** and **fade-in sections** were added to imp
 
 ---
 
-##  License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 
