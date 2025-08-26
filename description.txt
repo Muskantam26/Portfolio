@@ -1,0 +1,12 @@
+Muskan Tamrakar | Developer Portfolio
+
+This is a personal developer portfolio website built using **HTML**, **CSS**, and custom animations to showcase my skills, projects, and contact details. It represents my journey as a Full Stack Java Developer.
+
+
+  About Me
+
+I am a passionate **Full Stack Developer** skilled in both frontend and backend technologies. Currently, I'm interning at **Cybrome Technology** and **Elevate Labs** where I work on real-world dynamic web applications using:
+
+-  Java, Spring Boot, Spring MVC, Servlet, JSP
+-  React.js, HTML, CSS, JavaScript, Bootstrap
+-  MySQL, JDBC, Hibernate, DAO Pattern
